@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Featured.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+
+.text-body h5 {
+    font-size: 2rem;
+    font-family: roboto;
+    font-weight: 700;
+    color: white;
+}
+
+.text-body h1 {
+    margin-top: 2rem;
+    font-size: 6rem;
+    font-family: roboto;
+    font-weight: 700;
+    color: white;
+}
+
+.text-body p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.items {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-center {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-center:hover{
+    transform: translatex(-5px);
+}
+
+.items:hover{
+    box-shadow: 18px -3px 5px -8px rgba(234,37,37,0.24);
+    -webkit-box-shadow: 18px -3px 5px -8px rgba(234,37,37,0.24);
+    -moz-box-shadow: 18px -3px 5px -8px rgba(234,37,37,0.24);
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .items {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+
+.card-img-top {
+    width: 10rem;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.card-custom {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.card-custom {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover{
+    box-shadow: 18px -3px 5px -8px rgba(0, 153, 255, 0.24);
+    transform: translateY(-20px);
+}
+
+.card-custom img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card-custom h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-custom p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.card-container {
+    margin-bottom: 20px;
+}
+
+/* Parallax */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.parallax-section {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-layer-1 {
+    background-image: url('img/StockCake-1.jpg'); 
+}
+
+.parallax-layer-2 {
+    background-image: url('img/StockCake-2.jpg'); 
+}
+
+.parallax-layer-3 {
+    background-image: url('img/StockCake-3.jpg'); 
+}
+
+
+.centered-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+}
+
+.centered-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Login */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
